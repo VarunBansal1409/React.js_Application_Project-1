@@ -1,0 +1,104 @@
+main{
+    border: 2px solid;
+    height: 416px;
+    width: 300px;
+    border-radius: 12px;
+    margin-top: 50px;
+}
+
+.info{
+    list-style: none;
+    font-size: 14px;
+}
+
+.name {
+    font-size: 24px ;
+    font-weight: 700;
+}
+
+li:nth-child(6):hover{
+    cursor: pointer;
+}
+
+.img{
+    /* border: 2px solid; */
+    height: 140px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #1a1a1a95;
+}
+
+img{
+    height: 120px;
+    width: 120px;
+}
+
+.btn {
+    display: flex;
+}
+
+button{
+    flex: 1;
+    border-radius: 0;
+    background-color: #242424;
+}
+
+.btn1{
+    border-bottom-left-radius: 10px;
+    border: 2px solid yellow;
+    background-color: yellow;
+    color: #242424;
+}
+
+.btn2{
+    border: 2px solid red;
+    border-bottom-right-radius: 10px;
+    background-color: red;
+    color: #242424;
+}
+
+.btn1:hover{
+    border: 2px solid yellow;
+    background-color: transparent;
+    color: #fff;
+}
+
+.btn2:hover{
+    border: 2px solid red;
+    background-color: transparent;
+    color: white;
+}
+
+.icon{
+    position: relative;
+    top: 2.5px;
+}
+
+.create{
+    border: 2px solid;
+    position: absolute;
+    top: 20px;
+    left: 43%;
+    border-radius: 10px;
+    color: #242424;
+    background-color: lime;
+    border: 2px solid lime;
+}
+
+.create:hover{
+    color: white;
+    background-color: transparent;
+}
+
+.main{
+    /* border: 2px solid; */
+    margin-top: 70px;
+    width: 1400px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
