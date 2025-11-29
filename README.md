@@ -1,1 +1,5 @@
-# React.js_Application_Project-1
+# React.js_Application_Project
+
+"This React application is a single-page project that fetches and displays 10 user profiles from a public API. Each profile card shows the user’s name, email, phone, address, website, company, and a unique avatar generated with the DiceBear API. The app includes interactive actions such as a Like toggle, an Edit modal with editable fields, and a Delete button that asks for confirmation before removing the card. A loading indicator is displayed when the app starts to ensure a smooth experience while data is being fetched.
+
+The project demonstrates key React concepts including JSX, components, props, state management, and event handling. It also uses the Context API for shared state, hooks like useState and useEffect for data handling, and conditional rendering for loaders and UI updates. With clean component structure and optional styling using Bootstrap this application showcases how to build an interactive and functional React interface using real API data."
