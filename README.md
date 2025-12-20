@@ -1,12 +1,4 @@
-# React + Vite
+# User Profile Dashboard
+"This is a single-page React application that fetches and displays 10 user profiles from a public REST API. Each profile card shows a dynamically generated avatar using DiceBear, along with user details such as name, email, phone, address, website, and company. A loading indicator is shown while the data is being fetched.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The app includes interactive features like liking a profile, editing user details through a modal, and deleting a profile with confirmation. It demonstrates core React concepts such as components, props, state management using Context API, conditional rendering, API integration, and basic UI styling using a framework like Bootstrap or MUI."
